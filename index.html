@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DireC Support</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DireC Support</h1>
+        <nav>
+            <button class="tab-button" id="therapy-tab">Therapy</button>
+            <button class="tab-button" id="services-tab">General Services</button>
+            <button class="tab-button" id="business-tab">Business Promotion</button>
+        </nav>
+        <button id="sign-in">Sign In</button>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to DireC Support</h2>
+            <p>Your one-stop solution for therapy, general services, and business promotion. We are dedicated to supporting immigrants and the international community.</p>
+        </section>
+        <section id="therapy" class="content-tab">
+            <h2>Therapy Services</h2>
+            <p>We offer affordable therapy services that account for your income. If you need a different therapist, simply click the button below to find a new one.</p>
+            <button id="find-new-therapist">Find a New Therapist</button>
+            <div id="sign-in-section">
+                <h3>Sign In for Personalized Services</h3>
+                <form>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                    <button type="submit">Sign In</button>
+                </form>
+            </div>
+        </section>
+        <section id="services" class="content-tab">
+            <h2>General Services</h2>
+            <p>We provide a range of services to help you in various areas such as education, employment, and legal assistance. Explore the options available to you.</p>
+        </section>
+        <section id="business" class="content-tab">
+            <h2>Business Promotion</h2>
+            <p>Get support to promote your business or collaborate with other companies. We offer resources and tools to help you succeed.</p>
+        </section>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <p>"Ma Shaallah, I was helped" - A happy client</p>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
